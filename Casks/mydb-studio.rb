@@ -15,7 +15,7 @@ cask "mydb-studio" do
   auto_updates true
   depends_on macos: :monterey
 
-  app "myDB Studio.app"
+  app "myDB_Studio.app", target: "myDB Studio.app"
 
   zap trash: [
     "~/Library/Application Support/com.mydb.studio",
