@@ -1,6 +1,6 @@
 cask "mydb-studio" do
-  version "0.1.2"
-  sha256 "52d59a3617860e29668f6e62fa3b2e593a479bbd377b3fb16975c26551223440"
+  version "0.1.4"
+  sha256 "68b2c6b0241448fc0653f35e8e59a8d4f58f131cd3f0546a6834fc3af556f6c2"
 
   url "https://github.com/mydb-studio/releases/releases/download/v#{version}/myDB_Studio_#{version}_universal.dmg"
   name "myDB Studio"
@@ -8,7 +8,7 @@ cask "mydb-studio" do
   homepage "https://mydbstudio.com"
 
   livecheck do
-    url "https://github.com/mydb-studio/releases/releases"
+    url "https://github.com/mydb-studio/releases/releases/releases"
     strategy :github_latest
   end
 
