@@ -1,6 +1,6 @@
 cask "mydb-studio" do
-  version "0.1.6"
-  sha256 "568b9c7a2bb3c0641669638c440c81e3dcf0de74c61adb48fe1dab2b56f2f48c"
+  version "0.1.7"
+  sha256 "629390c82169fe124f01f0f7910f5433e697c112d80415effb41f63ceecc3dbe"
 
   url "https://github.com/mydb-studio/releases/releases/download/v#{version}/myDB_Studio_#{version}_universal.dmg"
   name "myDB Studio"
@@ -18,9 +18,10 @@ cask "mydb-studio" do
   app "myDB_Studio.app", target: "myDB Studio.app"
 
   zap trash: [
-    "~/Library/Application Support/com.mydb.studio",
-    "~/Library/Caches/com.mydb.studio",
-    "~/Library/Preferences/com.mydb.studio.plist",
-    "~/Library/Saved Application State/com.mydb.studio.savedState",
+    "~/Library/Application Support/MySQL Studio",
+    "~/Library/Application Support/com.mydbstudio.desktop",
+    "~/Library/Caches/com.mydbstudio.desktop",
+    "~/Library/Preferences/com.mydbstudio.desktop.plist",
+    "~/Library/Saved Application State/com.mydbstudio.desktop.savedState",
   ]
 end
