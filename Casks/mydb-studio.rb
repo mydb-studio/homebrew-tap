@@ -1,6 +1,6 @@
 cask "mydb-studio" do
-  version "0.1.5"
-  sha256 "5051d68c795e71cb1c392500323b3496198b67b4f1cbdbc8e9e9ed1898216b57"
+  version "0.1.6"
+  sha256 "568b9c7a2bb3c0641669638c440c81e3dcf0de74c61adb48fe1dab2b56f2f48c"
 
   url "https://github.com/mydb-studio/releases/releases/download/v#{version}/myDB_Studio_#{version}_universal.dmg"
   name "myDB Studio"
